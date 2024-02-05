@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(4, 36, 3);
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image:url("https://images.pexels.com/photos/1496372/pexels-photo-1496372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}  
+
+div p {
+    font-weight: 600;
+}
+
+input{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input::placeholder{
+    
+    color: aqua;
+    padding: 10px;
+}
+
+.back>p{
+    background-color: blueviolet;
+}
+
+.gra{
+    background-image: linear-gradient(green,blue,yellow);
+    opacity: 0.8;
+}
+
+h3{
+    margin: 30px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    background-image: radial-gradient(blue,red,orange);
+}
+
+
+.image img{
+    margin: 0 auto;
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+    filter: grayscale(0.3);
+}
+
+.box{
+    border: 2px solid black;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    object-fit: fill;
+    object-position: center;
+    
+}
+
+.title{
+    color: aquamarine;
+}
+
+.box p{ 
+    margin-top: 20px;
+}
+
+.box-list{
+gap: 20px;
+}
+
+.box-item{
+    box-sizing: border-box;
+    border: 2px dotted darkcyan ;
+    
+}
+
+.box-1{
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+
+.box-2 {
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+
+.box-3{
+    border: 1px solid black;
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+}
